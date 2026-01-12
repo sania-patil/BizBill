@@ -1,14 +1,93 @@
+# <<<<<<< HEAD
+# =======
+# # gradle-wrapper.jar
+# # /.gradle
+# # /captures/
+# # /gradlew
+# # /gradlew.bat
+# # /local.properties
+# # GeneratedPluginRegistrant.java
+# # .cxx/
+
+# # # Remember to never publicly share your keystore.
+# # # See https://flutter.dev/to/reference-keystore
+# # key.properties
+# # **/*.keystore
+# # **/*.jks
+
+# # Flutter/Dart/Pub related
+# .dart_tool/
+# .packages
+# .pub-cache/
+# .pub/
+
+# # Build outputs
+# /build/
+
+# # Android related
+# **/android/.gradle/
+# **/android/.cxx/
+# **/android/local.properties
+# **/android/key.properties
+# **/android/**/gradle-wrapper.jar
+# >>>>>>> da47099ac0dff60d8116b86439c8f3aeefe11a1c
+# gradle-wrapper.jar
+# /.gradle
+# /captures/
+# /gradlew
+# /gradlew.bat
+# <<<<<<< HEAD
+# /local.properties
+# GeneratedPluginRegistrant.java
+# .cxx/
+
+# # Remember to never publicly share your keystore.
+# # See https://flutter.dev/to/reference-keystore
+# =======
+# GeneratedPluginRegistrant.java
+
+# # iOS/Xcode related
+# **/ios/Flutter/Flutter.framework
+# **/ios/.generated/
+# **/ios/Pods/
+# **/ios/.symlinks/
+
+# # Keystore (never share these)
+# >>>>>>> da47099ac0dff60d8116b86439c8f3aeefe11a1c
+# key.properties
+# **/*.keystore
+# **/*.jks
+
+
+# Gradle
 gradle-wrapper.jar
 /.gradle
 /captures/
 /gradlew
 /gradlew.bat
 /local.properties
-GeneratedPluginRegistrant.java
+
+# CMake
 .cxx/
 
-# Remember to never publicly share your keystore.
-# See https://flutter.dev/to/reference-keystore
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Build outputs
+/build/
+
+# Android generated
+GeneratedPluginRegistrant.java
+**/android/.gradle/
+**/android/.cxx/
+**/android/local.properties
+**/android/key.properties
+**/android/**/gradle-wrapper.jar
+
+# Keystore (NEVER commit these)
 key.properties
 **/*.keystore
 **/*.jks
